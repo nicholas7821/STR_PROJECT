@@ -2,12 +2,6 @@
  * CELULA DE MANUFATURA - SIMPLIFICADO + LOGS SERIAL
  * Hardware: STM32F446RE (Nucleo)
  *
- * MODO SIMULACAO: Sem hardware externo conectado.
- * A logica, nomes de tarefas e estrutura sao identicos ao original.
- * Substituicoes feitas:
- *   - HAL_GPIO_ReadPin  -> variaveis de estado simuladas
- *   - Pulso()           -> osDelay() simulando o tempo da acao
- *   - TaskSensors       -> atualiza as variaveis simuladas com temporizadores
  */
 
 #include "main.h"
