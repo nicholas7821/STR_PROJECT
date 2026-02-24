@@ -92,7 +92,6 @@ int main(void)
 
 // ==============================================================================
 // TAREFA: CONTROLE DO ROBO
-// Logica identica ao original - apenas Pulso() e ReadPin() substituidos
 // ==============================================================================
 void TaskControl(void *argument)
 {
@@ -171,7 +170,6 @@ void TaskControl(void *argument)
 
 // ==============================================================================
 // TAREFA: SENSORES
-// Logica identica ao original - substitui leituras GPIO por variaveis simuladas
 // Tambem gerencia os temporizadores de simulacao das maquinas e do buffer
 // ==============================================================================
 void TaskSensors(void *argument)
